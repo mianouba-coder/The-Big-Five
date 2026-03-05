@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" style="color: var(--accent)">← Back</a>
+        <h1>Subscription Killer</h1>
+        <p>Enter your monthly costs to see the annual impact.</p>
+        <div class="card">
+            <input type="text" id="subName" placeholder="Service Name">
+            <input type="number" id="subCost" placeholder="Monthly $">
+            <button onclick="addSubscription()">Calculate</button>
+        </div>
+        <div id="subList" style="margin-top: 2rem;"></div>
+        <h2 id="totalDisplay"></h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html><!DOCTYPE html>
